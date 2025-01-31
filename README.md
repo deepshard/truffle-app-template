@@ -16,7 +16,7 @@ can build Truffle Apps on any Python dependency stack you'd like.
 ## Install the Truffle SDK in the CLI
 
 ```sh
-$ uv add truffle-sdk # or replace uv with poetry
+$ uv add "https://github.com/deepshard/truffle-sdk-public/releases/download/v0.6.2/truffle_sdk-0.6.2-py3-none-any.whl" # or replace uv with poetry
 ```
 
 ## Use the SDK's CLI to populate the template
