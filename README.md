@@ -1,7 +1,3 @@
-<div align="right">
-<img src="./arrow.svg" width="500" height="220" alt="Use this template arrow">
-</div>
-
 # Truffle App Template
 
 ## [Check out the docs for a full explanation of the Truffle SDK too](https://itsalltruffles.com)
@@ -116,6 +112,7 @@ if __name__ == "__main__":
     app = truffle.TruffleApp(PythonSoftwareEngineer())
     app.launch()
 ```
+### Publishing your 
 
 ## FAQ
 
