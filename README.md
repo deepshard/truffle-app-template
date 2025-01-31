@@ -2,7 +2,7 @@
 
 ** Check out this template to get started!**
 
-## An early draft of our
+## An early draft of our core documentation will be released shortly
 
 This template is designed to help you get up and running quickly with Truffle
 App development. 
