@@ -1,3 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
+  <g transform="rotate(-30, 250, 60)">
+    <path d="M200 40 L400 40 L380 20 M400 40 L380 60"
+          stroke="#ff3333"
+          stroke-width="5"
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+  </g>
+
+  <text x="150" y="90"
+        font-family="Arial, sans-serif"
+        font-size="24"
+        fill="#333333"
+        text-anchor="middle">
+    Press 'Use this template'!
+  </text>
+</svg>
 # Truffle App Template
 
 ## [Check out the docs for a full explanation of the Truffle SDK too](https://itsalltruffles.com)
@@ -9,8 +27,8 @@ App development.
 
 The Truffle SDK currently is supports CPython 3.10+, but is mainly tested with
 3.12+. This template repo supports both [uv](https://docs.astral.sh/uv/) and
-[poetry](https://python-poetry.org/docs/), but we really recommend you give uv
-a try.
+[poetry](https://python-poetry.org/docs/), but uv the officially recommended 
+tool.
 
 ## Install the Truffle SDK in the CLI
 
