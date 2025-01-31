@@ -21,6 +21,7 @@
   <!-- Text with GitHub's font stack -->
   <text x="150" y="90" 
         font-size="24" 
+        fill="currentColor"
         text-anchor="middle">
     Press 'Use this template'!!
   </text>
