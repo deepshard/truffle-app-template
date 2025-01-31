@@ -112,8 +112,28 @@ if __name__ == "__main__":
     app = truffle.TruffleApp(PythonSoftwareEngineer())
     app.launch()
 ```
-### Publishing your 
+### Publishing your Truffle App
 
+To upload your Truffle App to our platform, simply bundle the app into a `.truffle` file:
+
+```sh
+(truffle-app-template) $ truffle build MyTruffleApp # where MyTruffleApp is the name of the created project folder
+(truffle-app-template) $ truffle upload MyTruffleApp.truffle
+```
+
+## Pro Tips & Pointers
+
+* Don't be shy about throwing exceptions - they'll automatically get passed to the model. We've got your back on error handling.
+
+* Remember: you're the magical bridge between code (where stuff actually happens) and language (that parameter ball bouncing around on the GPU). The best patterns are like a good sandwich: simple input, complex magic in the middle, simple output.
+
+* Get creative! Our SDK APIs are your playground. Want to use fuzzy LLM logic to wrangle those finicky JSON APIs? Go for it. We love seeing clever solutions.
+
+* Feel free to push the container to its limits - it's ephemeral anyway. If it breaks, it breaks. That's what containers are for. Just remember: while breaking things is cool, being a container resource hog isn't. Don't be that person.
+
+* If you build something awesome (which we know you will), show it off! We're always stoked to see what creative ways people are using the SDK. Share those wins with the community.
+
+  
 ## FAQ
 
 ### How are uncaught exceptions handled by the App Executor?
