@@ -1,4 +1,3 @@
-from pathlib import Path
 import truffle
 
 # PythonSoftwareEngineer acts as a Truffle App that can write, read, and execute code
