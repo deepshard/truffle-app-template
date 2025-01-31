@@ -1,6 +1,6 @@
 # Truffle App Template
 
-## [Check out the docs for a full explanation of the Truffle SDK too](https://itsalltruffles.com)
+## [Check out the docs for a full explanation of the Truffle SDK](deepshard-1.gitbook.io)
 
 This template is designed to help you get up and running quickly with Truffle
 App development. 
