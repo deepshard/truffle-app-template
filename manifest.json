@@ -1,6 +1,0 @@
-{
-    "name":"${name}",
-    "description": "${description}",
-    "example_prompts":[],
-    "manifest_version": 0
-}
