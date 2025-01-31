@@ -1,6 +1,7 @@
 <div align="right">
-<img src="./arrow.svg" width="500" height="120" alt="Use this template arrow">
+<img src="./arrow.svg" width="500" height="250" alt="Use this template arrow">
 </div>
+
 # Truffle App Template
 
 ## [Check out the docs for a full explanation of the Truffle SDK too](https://itsalltruffles.com)
