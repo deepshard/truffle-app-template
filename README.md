@@ -12,13 +12,13 @@ The Truffle SDK currently is supports CPython 3.10+, but is mainly tested with
 [poetry](https://python-poetry.org/docs/), but we really recommend you give uv
 a try.
 
-## Install the Truffle SDK in the CLI and populate the template
+## Install the Truffle SDK in the CLI
 
 ```sh
 $ uv add truffle-sdk # or replace uv with poetry
 ```
 
-enter your venv, then use the SDK CLI to populate the template
+## Use the SDK's CLI to populate the template
 ```sh
 $ source .venv/bin/activate
 (truffle-app-template) $ truffle setup
@@ -29,12 +29,15 @@ Example Prompt 1 of 5: ...
 
 Now you're ready to start hacking at your first Truffle App!
 
-## A Quickstart to Truffle Apps
+## Truffle Apps for Devs in a Hurry
 
-The general structure of a Truffle App is to have a Python class, where state
-is stored in member fields, and methods are decorated to expose them when the
-app is running on the Truffle App Executor.
+The general structure of a Truffle App is to have a Python class, that gets passed
+to a `truffle.TruffleApp`, which then gets launched with the `.launch()` method.
 
+State is stored in member fields, and methods are decorated with `truffle.tool()` 
+to expose them to the Agent.
+
+### A Worked Example: A simple Truffle App for Python programming
 ```python
 from pathlib import Path
 import subprocess
@@ -50,6 +53,7 @@ class PythonSoftwareEngineer:
     - Executing shell commands
     """
     def __init__(self) -> None:
+        # this is the data that the Agent sees when selecting your app
         self.metadata = truffle.AppMetadata(
             name="pythonsoftwareengineer",
             description="Writes and executes Python code to accomplish tasks"
