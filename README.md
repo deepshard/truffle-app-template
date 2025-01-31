@@ -63,9 +63,9 @@ class PythonSoftwareEngineer:
 
     @truffle.tool(
         description="writes python code to a file",
-        icon="pencil.line",
+        icon="pencil.line", # icons for tools are SF Symbol names
     )
-    @truffle.args(
+    @truffle.args( # this decorator tells the agent about the tool's arguments
         the_code="a string containing the valid python code",
         destination_path="the path to the file",
     )
@@ -106,4 +106,18 @@ class PythonSoftwareEngineer:
                 f"stderr contents: {cmd_result.stderr}",
             ]
         )
+
+# launch the app when the script is run
+if __name__ == "__main__":
+    app = truffle.TruffleApp(PythonSoftwareEngineer())
+    app.launch()
 ```
+
+## FAQ
+
+### How are uncaught exceptions handled by the App Executor?
+
+The Truffle App Executor forwards the stacktrace and exception message
+to the Agent in the case of an uncaught exception. We encourage developers
+to lean on this behavior, as we our Agent is capable of self-correcting tool
+use in response to these exceptions.
