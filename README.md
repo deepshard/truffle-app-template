@@ -1,6 +1,8 @@
 # Truffle App Template
 
-## [Check out the docs for a full explanation of the Truffle SDK](deepshard-1.gitbook.io)
+** Check out this template to get started!**
+
+## An early draft of our
 
 This template is designed to help you get up and running quickly with Truffle
 App development. 
@@ -8,9 +10,8 @@ App development.
 ## Set up your project's virtual environment
 
 The Truffle SDK currently is supports CPython 3.10+, but is mainly tested with
-3.12+. This template repo supports both [uv](https://docs.astral.sh/uv/) and
-[poetry](https://python-poetry.org/docs/), but uv the officially recommended 
-tool.
+3.12+. This template repo supports [uv](https://docs.astral.sh/uv/), but you
+can build Truffle Apps on any Python dependency stack you'd like.
 
 ## Install the Truffle SDK in the CLI
 
