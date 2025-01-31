@@ -1,21 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
   <style>
-    text { fill: var(--color-inverted-fg, #000); }
+    text { 
+      fill: var(--color-inverted-fg, #000);
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    }
     @media (prefers-color-scheme: dark) {
       text { fill: var(--color-inverted-fg, #fff); }
     }
   </style>
   <g transform="rotate(-30, 250, 60)">
+    <!-- Arrow path -->
     <path d="M200 40 L400 40 L380 20 M400 40 L380 60" 
-          stroke="#33ff33" 
+          stroke="#ff3333" 
           stroke-width="5" 
           fill="none"
           stroke-linecap="round"
           stroke-linejoin="round"/>
   </g>
   
+  <!-- Text with GitHub's font stack -->
   <text x="150" y="90" 
-        font-family="Arial, sans-serif" 
         font-size="24" 
         text-anchor="middle">
     Press 'Use this template'!!
