@@ -1,4 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
+  <style>
+    text { fill: var(--color-inverted-fg, #000); }
+    @media (prefers-color-scheme: dark) {
+      text { fill: var(--color-inverted-fg, #fff); }
+    }
+  </style>
   <g transform="rotate(-30, 250, 60)">
     <path d="M200 40 L400 40 L380 20 M400 40 L380 60" 
           stroke="#33ff33" 
@@ -11,7 +17,6 @@
   <text x="150" y="90" 
         font-family="Arial, sans-serif" 
         font-size="24" 
-        fill="currentColor" 
         text-anchor="middle">
     Press 'Use this template'!!
   </text>
