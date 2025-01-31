@@ -1,21 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120">
-  <g transform="rotate(-30, 250, 60)">
-    <path d="M200 40 L400 40 L380 20 M400 40 L380 60"
-          stroke="#ff3333"
-          stroke-width="5"
-          fill="none"
-          stroke-linecap="round"
-          stroke-linejoin="round"/>
-  </g>
-
-  <text x="150" y="90"
-        font-family="Arial, sans-serif"
-        font-size="24"
-        fill="#333333"
-        text-anchor="middle">
-    Press 'Use this template'!
-  </text>
-</svg>
+<div align="right">
+<img src="./assets/arrow.svg" width="500" height="120" alt="Use this template arrow">
+</div>
 # Truffle App Template
 
 ## [Check out the docs for a full explanation of the Truffle SDK too](https://itsalltruffles.com)
