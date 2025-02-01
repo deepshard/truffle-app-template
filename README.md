@@ -1,6 +1,6 @@
 # Truffle App Template
 
-** Check out this template to get started!**
+**Press 'Use this Template' up in the corner to get started!**
 
 ## An early draft of our core documentation will be released shortly
 
